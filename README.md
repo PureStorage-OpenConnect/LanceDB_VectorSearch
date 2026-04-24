@@ -105,7 +105,7 @@ To re-run just the search phase against an existing table:
 PHASES=search ./target/release/lancedb-qps-10m
 ```
 
-### Sample output (10M × 1024-dim Wiki embeddings, FlashBlade over 10 GbE)
+### Sample output (10M × 1024-dim Wiki embeddings)
 
 ```
 --- Phase: Ingest ---
