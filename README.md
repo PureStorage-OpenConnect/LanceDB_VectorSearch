@@ -144,10 +144,6 @@ Threads    QPS          p50(ms)      p99(ms)      p99.9(ms)    OK         Errors
 ================================================================================
 ```
 
-At 150 concurrent clients, QPS plateaus near the 10 GbE NIC ceiling. Reducing
-the result payload (`SELECT_COL=id` vs a larger text column) is the single
-biggest lever for higher QPS on a network-constrained host.
-
 ---
 
 ## Scenario 2 — `lancedb-atomic-demo` (conditional-PUT safety demo)
